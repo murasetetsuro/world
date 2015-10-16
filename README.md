@@ -6,8 +6,7 @@
 987654321
 456
 HELLO!!!
-unkodaze!
-tanomu!
 oraoraoraoraoraoraora!!!!
 mudamudamudamudamudamuda*2*2!!!!!
 8second keika!
+git enjoy!
