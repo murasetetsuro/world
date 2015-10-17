@@ -9,5 +9,5 @@ HELLO!
 8second keika!
 git enjoy!
 JavaScript
-HTML
-CSS
+HTML5
+CSS3
