@@ -6,8 +6,6 @@
 456
 789
 HELLO!
-oraoraoraoraoraoraora!!!!
-mudamudamudamudamuda!!!!!
 8second keika!
 git enjoy!
 JavaScript
