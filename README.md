@@ -11,3 +11,5 @@ mudamudamudamudamuda!!!!!
 8second keika!
 git enjoy!
 JavaScript
+HTML
+CSS
