@@ -1,12 +1,13 @@
 # world
 - hello
 
-- hello,My name is ahaha!
-123456789
-987654321
+- hello,My name is tetsuro
+123
 456
-HELLO!!!
-oraoraoraoraoraoraora!!!!
-mudamudamudamudamudamuda*2*2!!!!!
-8second keika!
+789
 git enjoy!
+JavaScript
+HTML5
+CSS3
+I study JavaScript.
+Oh yes!
