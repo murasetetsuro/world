@@ -1,0 +1,24 @@
+CTYPE html>
+<html lang = "ja">
+<head>
+  <meta charset = "utf-8">
+  <script src = "myscript.js"></script>
+  <script>
+var user = {//オブジェクト
+  email: "taguchi@gmail.com",//プロパティ
+  score:　80,
+  greet: function(name){//メソッド
+    document.write("hello, " + name + "from" + this.email);
+  }
+};
+
+//document.write(user["email"]);
+//document.write(user.email);
+user.greet("Tom");
+  </script>
+</head>
+<body>
+</body>
+</html>
+
+
