@@ -1,6 +1,3 @@
-# world
-- hello
-git enjoy!
 JavaScript
 HTML5
 CSS3
