@@ -1,6 +1,5 @@
-Never put off until tomorrow what you cthan do today.
 
-CTYPE html>
+<!DOCTYPE html>
 <html lang="ja">
   <head>
     <meta charset="utf-8">
