@@ -8,8 +8,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
-   <div class = "container" style = "padding:20px 0">//kokodesenntarinngugadekirunndaze~wairudodaro~
-
+   <div class = "container" style = "padding:20px 0">
      <form class = "form-inline">
        <div class = "form-group">
          <label class = "sr-onry control-label" for = "email">Email</label>
