@@ -1,0 +1,81 @@
+CTYPE HTML>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/gameP.css">
+<link rel="stylesheet" href="css/face.css">
+<script type="text/javascript" src="countdownjs/gameP.js"></script>
+<script type="text/javascript" src="countdownjs/count.js"></script>
+<title>BreakFace</title>
+<script type="text/javascript" src="countdownjs/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="countdownjs/jquery.yycountdown.min.js"></script>
+<script type="text/javascript">
+$("#timer").yycountdown({
+  endDateTime   : '2015/10/30 00:00:00'
+});
+
+
+
+</script>
+
+</head>
+<body>
+
+<header>
+  <ul id="menu">
+  <li><a href="#tab1" class="tab1" onclick="ChangeTab('tab1');return false;">ストーリー</a></li>
+  <li><a href="#tab2" class="tab2" onclick="ChangeTab('tab2');return false;">キャラ</a></li>
+  <li><a href="#tab3" class="tab3" onclick="ChangeTab('tab3');return false;">スタッフ</a></li>
+</ul>
+
+
+</header>
+<div id="main">
+
+</div>
+ <div id="tab1" class="tab">
+<p>その日，高知工科大学情報学群4年生のテツは，卒業研究のための研究作業を行い，テツの後輩フミはその手伝いを行っていた．<br>たわいもない会話を交わし，いつもと変わらない日常を過ごしていた二人に突然大きな地震が襲いかかった．<br>二人が意識を取り戻したのは真夜中の2時．全く状況が判断できず，学内を探索するため研究室を出る二人であったが，そこで人間が化け物に食われている姿を目の当たりにすることに．<br>再び研究室に戻り，偶然発見したラジオから今の状況を確認する二人であったが，そこで聞いたニュースキャスターの一言に驚く．<br>
+「本日も日本中何も起こらず平和な一日でしたね」<br>
+表情が固まる二人．<br>
+状況が全く把握でいない二人は，その後真夜中の大学を探索し始める．数多くの危険を免れ，なんとか大学から脱出した二人はその日を後にした．<br>
+次の日学校に訪れると，生徒たちは何事もなかったかのように生活を送っていた．<br>あれは夢であったのか，現実であったのか．<br>何気ない大学生活の中で起こった不可解な事件．<br>この真相を確かめるべく二人はもう一度真夜中の大学に向かうのであった．</p>
+
+ </div>
+
+ <div id="tab2" class="tab">
+
+<h>テツ</h>　<p>高知工科大学の情報学群所属の4年生．</p>
+<h>フミ</h>　<p>高知工科大学の情報学群所属の3年生。テツの後輩．</p>
+
+ </div>
+
+ <div id="tab3" class="tab">
+<h1>・ゲーム制作者</h1>
+<h2>高知工科大学3年生</h2>
+　　<p>川村ふみや，粕谷彪人，片岡宗史</p>
+<h2>高知工科大学1年生</h2>
+　　<p>濱口ひろき，澤村優希，氏原友梨亜</p>
+
+
+<h1>・HP制作者</h1>
+　<h2>高知工科大学3年</h2>
+　　<p>村瀬哲郎，平松一輝</p>
+　<h2>高知工科大学1年</h2>
+　　<p>前川尚都</p>　
+
+ </div>
+
+</div>
+
+<script>
+ChangeTab('tab1');
+</script>
+
+<footer>
+</footer>
+
+</div>
+</body>
+</html>
+
+
