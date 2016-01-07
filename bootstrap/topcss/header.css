@@ -1,0 +1,9 @@
+img.header{
+float:left;
+width:70%;
+height:70%;
+}
+#header_login{
+  float:right;
+  font-size: 120%;
+}
