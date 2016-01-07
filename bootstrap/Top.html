@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex,nofollow">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tab確認</title>
+    <link rel="stylesheet" type="text/css" href="./topcss/lightbox/lightbox.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media = "screen">
+		<link rel="stylesheet" type="text/css" href="./topcss/header.css">
+		<link rel="stylesheet" type="text/css" href="./css/tab.css">
+		<link rel="stylesheet" type="text/css" href="./css/wcss.css">
+    <link rel="stylesheet" type="text/css" href="./bootstrap/lightbox.css">
+    <link rel="stylesheet" type="text/css" href="./bootstrap/lightbox.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/dropdown.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src = "http://code.jquery.com/jquery.js"></script>
+    <script src = "js/bootstrap.min.js"></script>
+		<script src="modal-multi.js"></script>
+    <script src="./bootstrap/lightbox.min.js"></script>
+    <script src="./bootstrap/lightbox.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  </head>
+  <body>
+
+    <div class = "container" style = "padding:20px 0">
+      <!--ここからbody---------------------------------------------------------------------------->
+
+      <!--header部分-->
+        		<header>
+      				<img src = "./img/rogo.png">
+      				<div id = "header_login">
+      				<a href = "ログインページに飛ぶurl">ログイン</a>
+              <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="検索">
+                </div>
+                <button type="submit" class="btn btn-default">検索</button>
+              </form>
+            　</div>
+      			</header>
+
+
+      <ul class = "nav nav-tabs">
+        <li class = "active"><a href = "#home" data-toggle = "tab">お酒</a></li>
+        <li><a href = "#about" data-toggle = "tab">食材</a></li>
+        <li><a href = "#about2" data-toggle = "tab">観光地</a></li>
+        <li><a href = "#about3" data-toggle = "tab">店舗</a></li>
+
+      </ul>
+
+      <div class = "tab-content">
+        <div class = "tab-pane active" id = "home">
+          <div class = "range">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="2000">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="./img/view1.jpg" alt = "..." width="700" height="440">
+      <div class="carousel-caption">
+
+      </div>
+    </div>
+    <div class="item">
+      <img src="./img/view2.jpg" alt="..." width="700" height="440">
+      <div class="carousel-caption">
+
+      </div>
+
+    </div>
+    <div class="item">
+      <img src="./img/view3.jpg" alt="..." width="700" height="440">
+      <div class="carousel-caption">
+
+      </div>
+
+    </div>
+    <div class="item">
+      <img src="./img/view4.jpg" alt="...">
+      <div class="carousel-caption">
+
+      </div>
+
+    </div>
+    <div class="item">
+      <img src="./img/view5.jpg" alt="...">
+      <div class="carousel-caption">
+
+    </div>
+  </div>
+</div>
+
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  </div>
+    </div>
+    <div class="center-block">
+      <div id = "pulldown">
+        <div class="dropdown1">
+          <img src="./img/b.jpg" name="area1" width = "90%" height = "90%">
+
+          　<input type="button" onclick="showimg1()" value="ビール">
+          　<input type="button" onclick="showimg2()" value="日本酒">
+          　<input type="button" onclick="showimg3()" value="焼酎">
+
+    </div>
+    </div>
+    </div>
+      </div>
+
+
+        <div class = "tab-pane" id = "about">
+
+          <div class = "range">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="2000">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="./img/view6.png" alt="..." width="700" height="440">
+      <div class="carousel-caption">
+
+      </div>
+    </div>
+    <div class="item">
+      <img src="./img/view7.jpg" alt="..." width="700" height="440">
+      <div class="carousel-caption">
+
+      </div>
+
+    </div>
+    <div class="item">
+      <img src="./img/view8.jpg" alt="..." width="700" height="440">
+      <div class="carousel-caption">
+
+      </div>
+
+    </div>
+    <div class="item">
+      <img src="./img/view9.jpg" alt="...">
+      <div class="carousel-caption">
+
+      </div>
+
+    </div>
+    <div class="item">
+      <img src="./img/view10.jpg" alt="...">
+      <div class="carousel-caption">
+
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+        </div>
+
+        <div class="center-block">
+          <div id = "pulldown2">
+            <div class="dropdown2">
+
+          <!-- ここが表示されるボタン <a>タグでもOK -->
+          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+            高知の魚
+            <span class="caret"></span>
+          </button>
+          <!-- ボタンここまで -->
+
+          <!-- ここはボタンを押すと表示されるリスト -->
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">タタキ</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">アオアジ</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">イシダイ</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">カツオ</a></li>
+          </ul>
+          <!-- リストここまで -->
+
+        </div>
+        <div class="dropdown2">
+
+        <!-- ここが表示されるボタン <a>タグでもOK -->
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+        高知の肉
+        <span class="caret"></span>
+        </button>
+        <!-- ボタンここまで -->
+
+        <!-- ここはボタンを押すと表示されるリスト -->
+        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">土佐地鶏</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">雉</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">いのしし</a></li>
+        </ul>
+        <!-- リストここまで -->
+
+        </div>
+        <div class="dropdown2">
+
+        <!-- ここが表示されるボタン <a>タグでもOK -->
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+        高知の野菜
+        <span class="caret"></span>
+        </button>
+        <!-- ボタンここまで -->
+
+        <!-- ここはボタンを押すと表示されるリスト -->
+        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">みょうが</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">なす</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">にら</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">生姜</a></li>
+        </ul>
+        <!-- リストここまで -->
+
+        </div>
+
+        <div class="dropdown2">
+
+        <!-- ここが表示されるボタン <a>タグでもOK -->
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+        高知の郷土料理
+        <span class="caret"></span>
+        </button>
+        <!-- ボタンここまで -->
+
+        <!-- ここはボタンを押すと表示されるリスト -->
+        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">かつおのたたき</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">釜あげちりめん丼</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">ペラ焼き</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">中日そば</a></li>
+        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">皿鉢料理</a></li>
+        </ul>
+        <!-- リストここまで -->
+
+        </div>
+        </div>
+        </div>
+
+      </div>
+
+      <div class = "tab-pane" id = "about2">
+
+        <div class = "range">
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="2000">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+  <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner" role="listbox">
+  <div class="item active">
+    <img src="./img/light1.jpg" alt = "..." width="700" height="440">
+    <div class="carousel-caption">
+
+    </div>
+  </div>
+  <div class="item">
+    <img src="./img/light2.png" alt="..." width="700" height="440">
+    <div class="carousel-caption">
+
+    </div>
+
+  </div>
+  <div class="item">
+    <img src="./img/light3.png" alt="..." width="700" height="440">
+    <div class="carousel-caption">
+
+    </div>
+
+  </div>
+  <div class="item">
+    <img src="./img/light4.png" alt="..." width="700" height="440">
+    <div class="carousel-caption">
+
+    </div>
+
+  </div>
+  <div class="item">
+    <img src="./img/light5.png" alt="..." width="700" height="440">
+    <div class="carousel-caption">
+
+    </div>
+
+  </div>
+</div>
+
+
+
+<!-- Controls -->
+<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+  <span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+  <span class="sr-only">Next</span>
+</a>
+</div>
+      </div>
+
+      <!--高知の観光地ベスト5-------------------->
+      <div id = "tab_wrapper">
+        <h1>高知の観光地ベスト5</h1>
+        <HR style="margin: 3em 0;">
+        <!-- ここからモーダルウィンドウ -->
+        <!-- 1つ目のコンテンツ開始 -->
+        <div id="modal-content-01" class="modal-content">
+          <img src="./img/light1.jpg" class="modal-img">
+          <h3> 観光と探検と学術価値3拍子揃った神秘の宮殿　龍河洞 </h3>
+          <p> 日本の代表的観光鍾乳洞で、幻想的で神秘的な世界を体感できる。
+      洞内出口付近に弥生時代の穴居生活の跡があり、特に石灰華に包まれた弥生式土器は世界的にも珍しい。
+      また、最近開放中の冒険コースは狭い道を這って進んだり、丸木の梯子を登ったり等、真っ暗闇への体験ができる。（事前の予約が必要） </p>
+          <p><a id="modal-close" class="button-link">閉じる</a></p>
+        </div>
+        <!-- 1つ目のコンテンツ終了 -->
+
+        <!-- 2つ目のコンテンツ開始 -->
+        <div id="modal-content-02" class="modal-content">
+          <img src="./img/light2.png" class="modal-img">
+          <p> 全長196km。四国では最長の大河。『最後の清流』として知られ、現在でも伝統的な川魚漁が行われている。上流から下流に数多く残っている沈下橋は、今も住民の交通路であるとともに、四万十川の風物詩となっている。 </p>
+          <p><a id="modal-close" class="button-link">閉じる</a></p>
+        </div>
+        <!-- 2つ目のコンテンツ終了 -->
+
+        <!-- 3つ目のコンテンツ開始 -->
+        <div id="modal-content-03" class="modal-content">
+          <img src="./img/light3.png" class="modal-img">
+          <h3>壮大な岩、荒々しい海、空海が残した数々の伝説、パワースポットなど盛りだくさん　地球の営みを体感できるスポット！</h3>
+          <p>室戸岬は古くは海の難所として知られ、海岸は奇岩が乱立し、亜熱帯性樹林や海岸植物が茂り、1964年6月に室戸阿南海岸国定公園の指定を受け、2011年9月に世界ジオパークに認定されています。また、室戸世界ジオパークセンターでは、ジオパークについて分かりやすく紹介しています。</p>
+          <p><a id="modal-close" class="button-link">閉じる</a></p>
+        </div>
+        <!-- 3つ目のコンテンツ終了 -->
+
+        <!-- 4つ目のコンテンツ開始 -->
+        <div id="modal-content-04" class="modal-content">
+          <img src="./img/light4.png" class="modal-img">
+          <h3>壮大な岩、荒々しい海、空海が残した数々の伝説、パワースポットなど盛りだくさん　地球の営みを体感できるスポット！</h3>
+          <p>室戸岬は古くは海の難所として知られ、海岸は奇岩が乱立し、亜熱帯性樹林や海岸植物が茂り、1964年6月に室戸阿南海岸国定公園の指定を受け、2011年9月に世界ジオパークに認定されています。また、室戸世界ジオパークセンターでは、ジオパークについて分かりやすく紹介しています。</p>
+          <p><a id="modal-close" class="button-link">閉じる</a></p>
+        </div>
+        <!-- 4つ目のコンテンツ終了 -->
+
+        <!-- 5つ目のコンテンツ開始 -->
+        <div id="modal-content-05" class="modal-content">
+          <img src="./img/light5.png" class="modal-img">
+          <h3>壮大な岩、荒々しい海、空海が残した数々の伝説、パワースポットなど盛りだくさん　地球の営みを体感できるスポット！</h3>
+          <p>室戸岬は古くは海の難所として知られ、海岸は奇岩が乱立し、亜熱帯性樹林や海岸植物が茂り、1964年6月に室戸阿南海岸国定公園の指定を受け、2011年9月に世界ジオパークに認定されています。また、室戸世界ジオパークセンターでは、ジオパークについて分かりやすく紹介しています。</p>
+          <p><a id="modal-close" class="button-link">閉じる</a></p>
+        </div>
+        <!-- 5つ目のコンテンツ終了 -->
+
+        <p><a class="modal-syncer button-link" data-target="modal-content-01">龍河洞</a></p>
+        <p><a class="modal-syncer button-link" data-target="modal-content-02">四万十川</a></p>
+        <p><a class="modal-syncer button-link" data-target="modal-content-03">桂浜</a></p>
+        <p><a class="modal-syncer button-link" data-target="modal-content-04">室戸岬</a></p>
+        <p><a class="modal-syncer button-link" data-target="modal-content-05">若宮八幡宮</a></p>
+
+        <HR style="margin: 3em 0;">
+
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+          <script src="modal-multi.js"></script>
+      </div><!--tab_wrapper-->
+
+
+      </div>
+
+
+
+      <div class = "tab-pane" id = "about3">
+
+        <div class = "range">
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="2000">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+  <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner" role="listbox">
+  <div class="item active">
+    <img src="./img/store.jpg" alt = "..." width="700" height="440">
+    <div class="carousel-caption">
+
+    </div>
+  </div>
+  <div class="item">
+    <img src="./img/store2.jpg" alt="..." width="700" height="440">
+    <div class="carousel-caption">
+
+    </div>
+
+  </div>
+  <div class="item">
+    <img src="./img/store3.jpg" alt="..." width="700" height="440">
+    <div class="carousel-caption">
+
+    </div>
+
+  </div>
+  <div class="item">
+    <img src="./img/store4.jpg" alt="..." width="700" height="440">
+    <div class="carousel-caption">
+
+    </div>
+
+  </div>
+  <div class="item">
+    <img src="./img/store5.jpg" alt="..." width="700" height="440">
+    <div class="carousel-caption">
+
+    </div>
+
+  </div>
+</div>
+
+
+
+<!-- Controls -->
+<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+  <span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+  <span class="sr-only">Next</span>
+</a>
+</div>
+      </div>
+      <div id = "municipality">
+        <div class="panel panel-warning">
+          <div class="panel-heading">
+    <h3 class="panel-title">市町村検索</h3>
+  </div>
+        <div class = "line">
+        <label class="checkbox-inline"><input type="checkbox" value="">高知市</label>
+        <label class="checkbox-inline"><input type="checkbox" value="">南国市</label>
+        <label class="checkbox-inline"><input type="checkbox" value="" disabled="">室戸市</label>
+        </div>
+        <div class = "line">
+        <label class="checkbox-inline"><input type="checkbox" value="">安芸市</label>
+        <label class="checkbox-inline"><input type="checkbox" value="">土佐市</label>
+        <label class="checkbox-inline"><input type="checkbox" value="" disabled="">須崎市</label>
+        </div>
+        <div class = "line">
+        <label class="checkbox-inline"><input type="checkbox" value="">宿毛市</label>
+        <label class="checkbox-inline"><input type="checkbox" value="">土佐清水市</label>
+        <label class="checkbox-inline"><input type="checkbox" value="">四万十市</label>
+        </div>
+      </div>
+    </div>
+      <div id= "average_budget">
+      <div class="panel panel-warning">
+        <div class="panel-heading">
+  <h3 class="panel-title">平均予算から検索</h3>
+</div>
+      <div class = "line">
+      <label class="checkbox-inline"><input type="checkbox" value="">3000円以下</label>
+      <label class="checkbox-inline"><input type="checkbox" value="">3001円~3500円</label>
+      <label class="checkbox-inline"><input type="checkbox" value="" disabled="">3501円~4000円</label>
+      </div>
+      <div class = "line">
+      <label class="checkbox-inline"><input type="checkbox" value="">4001円~4500円</label>
+      <label class="checkbox-inline"><input type="checkbox" value="">4501円~5000円</label>
+      <label class="checkbox-inline"><input type="checkbox" value="" disabled="">5001円~7000円</label>
+      </div>
+      <div class = "line">
+      <label class="checkbox-inline"><input type="checkbox" value="">7001円以上</label>
+      </div>
+    </div>
+      </div>
+    </div>
+
+
+
+    <!--高知のオススメ3------------------------------>
+    <div class="main2-app text-center">
+    <div class="container">
+    <div class="row">
+    <div class="col-sm-12">
+    <h2>高知のオススメ3</h2>
+    	<div class="row">
+    	<div class="col-sm-4">
+    	<div class="main2-sub">
+    		<img src="img/best1.png" alt="" class="img-circle_center-block">
+    		<h3><1位>有機ゆずの100%果汁</h3>
+    		<p>ファイル・フォルダの共有やインターネット公開ができ、ファイルをアップロード、ダウンロードすることができます。</p>
+    	</div>
+    	</div><!-- col -->
+
+    	<div class="col-sm-4">
+    	<div class="main2-sub">
+    		<img src="img/best2.png" alt="" class="img-circle_center-block">
+    		<h3><2位>四万十川 川のり佃煮</h3>
+    		<p>ブラウザからメールを利用できる機能です。普段ご利用されているメールの送受信などをアプリ上から行うことができます。</p>
+    	</div>
+    	</div><!-- col -->
+
+    	<div class="col-sm-4">
+    	<div class="main2-sub">
+    		<img src="img/best3.png" alt="" class="img-circle_center-block">
+    		<h3><3位>土佐の赤かつお</h3>
+    		<p>ドラッグ＆ドロップで簡単に予定を登録。参加者の予定を一覧で確認でき、簡単に予定を調整することが可能です。</p>
+    	</div>
+    	</div><!-- col -->
+
+    	</div><!-- row -->
+
+    </div><!-- col -->
+    </div><!-- row -->
+    </div><!-- container -->
+    </div>
+
+
+      <div id = "event">
+        <h1>高知のイベント情報</h1>
+        <a href = "http://xmas.walkerplus.com/detail/ar0939il17654/"><img src = "./img/event.png"></a>
+      </div>
+    </div>
+    </div>
+      <script>
+      $('.carousel').carousel({
+        interval: 2000
+      })
+      $(function(){
+        $("[data-toggle = tooltip]").tooltip();
+      });
+      </script>
+      <SCRIPT type="text/javascript">
+      <!--
+      function showimg1(){
+      document.area1.src = "./img/b.jpg";
+      }
+
+      function showimg2(){
+      document.area1.src = "./img/n.jpg";
+      }
+
+      function showimg3(){
+      document.area1.src = "./img/s.jpg";
+      }
+      -->
+      </SCRIPT>
+
+  </body>
+</html>

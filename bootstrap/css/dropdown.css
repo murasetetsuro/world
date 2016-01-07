@@ -1,0 +1,25 @@
+#pulldown{
+  height:300px;
+  width:80%;
+  margin-left: auto;
+}
+img.pulldown{
+  width:30%;
+  height:30%;
+}
+.dropdown1{
+  width:50%;
+  height:300px;
+  float:left;
+
+}
+#pulldown2{
+  width:80%;
+  margin-left: auto;
+}
+.dropdown2{
+  width:20%;
+  height:100%;
+  float:left;
+
+}
